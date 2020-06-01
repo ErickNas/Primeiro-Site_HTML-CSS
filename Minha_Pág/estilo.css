@@ -1,0 +1,193 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*--------------------DIV E INPUT-------------------*/
+
+input#busca{
+	height: 40px;
+	width: 300px;
+	border-radius: 5px;
+	position: absolute;
+	margin-left: 825px;
+	margin-top: -110px;
+	border-color: #1b87a4;
+	}
+div#divisao{
+	background-color: rgb(255, 255, 255);
+	width: 1150px ;
+	margin: -10px auto 0px auto;
+	box-shadow: 3px 3px 10px rgba(0,0,0,.5);
+	padding: 0px;
+}
+
+/*--------------------HEADERS----------------------*/
+
+header#cabecalho{
+	border: 1px #000000 solid;
+	border-radius: 8px;
+	height: 150px;
+	background: url("imagnes/logo-pag") no-repeat 0px 80px;
+}
+
+header#cabecalho img#logo01{
+	position: relative;
+	left: -5px;
+	top: -125px;
+}
+
+header#cabecalho h1{
+	color: rgb(27, 135, 164);
+	font-size: 46pt;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 5px;
+	margin-left: 180px;
+	text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+header#cabecalho h3{
+	color: #158eaf;
+	font-weight: bold;
+	font-size: 16pt;
+	font-family: 'Roboto', sans-serif;
+	margin-top:-40px;
+	margin-left: 190px;
+	text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+/*--------------------NAV----------------------*/
+nav#menu{
+	display:block;
+}
+
+nav#menu ul{
+	position: relative;
+	text-align: center;
+	text-transform:uppercase;
+	list-style: num;
+	top: -195px;
+	left: 218px;
+	}
+
+nav#menu li{
+	font-weight: bold;
+	color: rgb(0,0,0);
+	border: 2px solid rgba(0,0,0,.5);
+	background-color: rgba(156,218,177,.5);
+	width: 80px;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	transition: background-color 1s;
+}
+
+nav#menu li:hover{
+	background-color: rgba(27,135,164,.5);
+	opacity: .5; 
+}
+
+nav#menu a{
+	color: #000000;
+	text-decoration: none;
+}
+
+/*--------------------SECTION----------------------*/
+
+section#fotos{
+	margin-top: 0px;
+	background-color: rgb(219, 219,219);
+	border-radius: 8px;
+	padding-top: 30px;
+	border: 1px solid rgba(0,0,0,.5)
+}
+
+section#fotos h1{
+	color: rgb(27, 135, 164);
+	font-size: 24pt;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	margin: -20px auto auto 485px;
+}
+
+/*--------------------IMAGENS----------------------*/
+ul#recomendados{
+	margin: 20px auto auto 120px;
+	padding: 8px;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#recomendados li{
+	float: left;
+	width: 400px;
+	height: 250px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	border: 2px solid rgba(0,0,0,.7);
+	background-color: #ffffff;
+	border-radius: 8px;
+}
+
+ul#recomendados a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	transition: background 1s;
+}
+ul#recomendados li figcaption{
+	margin: auto auto auto auto;
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 20pt;
+	text-align:center;
+	padding: 5px;
+	text-align: center;
+
+	
+}
+ul#recomendados li:hover figcaption{
+	opacity: 1;
+}
+
+ul#recomendados li#imagem01{
+	background: url('Imagens/01.jpg') no-repeat ;
+	background-position: 50% 50%;
+}
+
+ul#recomendados li#imagem02{
+	background: url('Imagens/02.jpg') no-repeat ;
+	background-position: 50% 50%;
+}
+
+ul#recomendados li#imagem03{
+	background: url('Imagens/03.jpg') no-repeat ;
+	background-position: 50% 50%;
+}
+
+ul#recomendados li#imagem04{
+	background: url('Imagens/04.jpg') no-repeat ;
+	background-position: 50% 50%;
+}
+
+ul#recomendados li#imagem05{
+	background: url('Imagens/05.jpg') no-repeat ;
+	background-position: 50% 50%;
+}
+
+ul#recomendados li#imagem06{
+	background: url('Imagens/06.jpg') no-repeat ;
+	background-position: 50% 50%;
+}
+
+/*--------------------FOOTER----------------------*/
+
+footer#rodape p{
+	margin-top:0px;
+	padding: 8px;
+}
+footer#rodape{
+	border-radius:5px;
+	background-color: rgba(219,219,219);
+	border-top: 1px solid rgb(0,0,0);
+	margin-top: 0px;
+	text-align: center;
+}
