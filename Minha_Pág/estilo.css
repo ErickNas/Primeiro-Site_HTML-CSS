@@ -1,19 +1,27 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
 
+/* ----- Geral ----- */
+
+body{
+	background-color: rgb(214, 197, 184);
+}
+
 /* ----- Topper Container ----- */
 
 div#toper{
 	border-radius: 5px;
 	border-bottom-style: solid;
+	border-width: 2px;
 	padding: 10px 0px 10px 0px;
+	box-shadow: 2px 2px #51A69D;
 }
 
 div#toper h1{
 	font-family: 'Croissant One', cursive;
 	line-height: 20pt;
 	color: #51A69D;
-	margin: -100px 0px 20px 250px;
+	margin: -100px 0px 20px 285px;
 }
 
 div#toper h2{
@@ -38,9 +46,15 @@ div#photos h1{
 	text-align: center;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 24pt;
+	color: #2198A6;
 }
 
 /* ----- Bottom Container ----- */
+
+div#bot{
+	border-top-style: solid;
+	border-width: 2px;
+}
 
 div#bot p{
 	text-align: center;
