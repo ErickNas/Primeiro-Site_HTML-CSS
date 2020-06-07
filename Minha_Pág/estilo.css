@@ -6,15 +6,18 @@
 body{
 	background-color: rgb(214, 197, 184);
 }
+/* ----- Menu Container ----- */
+
 
 /* ----- Topper Container ----- */
 
 div#toper{
 	border-radius: 5px;
 	border-bottom-style: solid;
+	border-right-style: solid;
 	border-width: 2px;
 	padding: 10px 0px 10px 0px;
-	box-shadow: 2px 2px #51A69D;
+	box-shadow: 3px 3px 2px #51A69D;
 }
 
 div#toper h1{
@@ -22,6 +25,7 @@ div#toper h1{
 	line-height: 20pt;
 	color: #51A69D;
 	margin: -100px 0px 20px 285px;
+	text-shadow: 2px 2px 2px black;
 }
 
 div#toper h2{
@@ -29,26 +33,68 @@ div#toper h2{
 	line-height: 20pt;
 	color: #2198A6;
 	margin: 0px 0px 20px 200px;
+	text-shadow: 2px 2px 2px black;
 }
 
 #busca{
+	width: 200px;
+	height: 30px;
 	float: right;
 	margin: -30px 10px 0px 0px;
+	border-radius: 4px;
+}
+
+#busca:hover{
+	border-color: #51A69D;
 }
 
 /* ----- Mid Container ----- */
 
-div#photos{
-    border-top: black, 1px;
-}
-
-div#photos h1{
+div#middle h1{
 	text-align: center;
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 24pt;
+	font-size: 30pt;
 	color: #2198A6;
+	text-shadow: 2px 2px 2px black;
 }
 
+/* ----- Photos Container ----- */
+article.esq{
+	border-style: solid;
+	width: 500px;
+	height: 500px;
+	margin: 0px 50px 10px 80px;
+	display: inline-block;
+}
+
+article.dir{
+	border-style: solid;
+	width: 500px;
+	height: 500px;
+	margin: 0px 50px 10px 80px;
+	display: inline-block;
+}
+
+div#middle a{
+	text-decoration: none;
+}
+
+div#middle h2{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20pt;
+	color: black;
+}
+
+div#middle ul{
+	font-size: 18pt;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+div#middle img{
+	padding-left: 50px;
+}
 /* ----- Bottom Container ----- */
 
 div#bot{
