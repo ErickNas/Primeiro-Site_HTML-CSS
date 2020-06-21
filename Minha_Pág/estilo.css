@@ -5,6 +5,7 @@
 
 body{
 	background-color: rgb(214, 197, 184);
+	background-size: 100%;
 }
 /* ----- Menu Container ----- */
 
@@ -24,23 +25,27 @@ div#toper h1{
 	font-family: 'Croissant One', cursive;
 	line-height: 20pt;
 	color: #51A69D;
-	margin: -100px 0px 20px 285px;
+	margin: -130px 0px 100px 285px;
 	text-shadow: 2px 2px 2px black;
+	position: relative;
+	text-align: justify;
 }
 
 div#toper h2{
 	font-family: 'Croissant One', cursive;
 	line-height: 20pt;
 	color: #2198A6;
-	margin: 0px 0px 20px 200px;
+	margin: -50px 0px 20px 200px;
 	text-shadow: 2px 2px 2px black;
+	position: relative;
+	text-align: justify;
 }
 
 #busca{
 	width: 200px;
 	height: 30px;
 	float: right;
-	margin: -30px 10px 0px 0px;
+	margin: -100px 10px 0px 0px;
 	border-radius: 4px;
 }
 
